@@ -18,9 +18,14 @@
         <li><strong>Feedback:</strong> <?php echo htmlspecialchars($_POST['message']); ?></li>
     </ul>
 
-    <p><a href="feedback.html">Go back</a></p>
-    <a href="sql_store.php">Store</a>
-    <a href="customer-orders.php">Orders</a>
+    <a href="feedback.php">Leave a feedback</a><br>
+    <a href="orders-by-customer-names.php">Sorted by customer name</a><br>
+    <a href="customer-orders.php">Order list</a><br>
+    <a href="contact-sent.php">Feedback sent</a><br>
+    <a href="sql_store.php">store</a><br>
+    <a href="index.php">first task</a><br>
+    <a href="auto.php">task 8</a><br>
+    <a href="grouped-orders.php">task 6</a> <br><br>
 </body>
 
 </html>
